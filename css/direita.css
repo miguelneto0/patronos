@@ -1,0 +1,83 @@
+div#tela{
+    position: absolute;
+    width: 60%;
+    height: 94.5%;
+    /* background-color: red; */
+    right: 0;
+}
+
+div#card{
+    position: relative;
+    /* margin: auto; */
+    margin: auto;
+    margin-top: 1%;
+    border: 3px dashed white;
+    width: 85%;
+    height: 520px;
+    padding: 1%;
+    z-index: 2;
+}
+
+div#fundo{
+    position: absolute;
+    /* background-color: red; */
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    height: 500px;
+    z-index: 0;
+}
+
+div#tela h1{
+    /* position: relative; */
+    font-family: 'Gagalin';
+    font-size: 6vh;
+    margin-top: 8%;
+    margin-bottom: 1%;
+    text-align: center;
+    color: white;
+    
+}
+
+li.comidas span.preco{
+    position: relative;
+    font-family: 'Gagalin';
+    font-size: 2vw;
+    width: 15%;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    float: right;
+    background-color: orange;
+}
+
+ul.comida{
+    /* padding: 1% */
+}
+
+li.comidas{
+    list-style: none;
+    margin-bottom: 6%;
+    /* padding-top: 2%; */
+    padding-bottom: 2%;
+}
+
+li.comidas p{
+    color: white;
+    font-family: Calibri;
+    font-size: 1.9vh;
+    width: 82%;
+    float: left;
+}
+
+li.comidas h2{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 3vh;
+}
+
+@import url(//db.onlinewebfonts.com/c/240a7cb10b49b02c94ceddc459d385a9?family=Gagalin);
+
+@font-face {font-family: "Gagalin"; src: url("//db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.eot"); src: url("//db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.woff") format("woff"), url("//db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/240a7cb10b49b02c94ceddc459d385a9.svg#Gagalin") format("svg"); }

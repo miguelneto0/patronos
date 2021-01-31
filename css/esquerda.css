@@ -1,0 +1,61 @@
+div#esquerda{
+    position: fixed;
+    background-color: rgb(221, 206, 187);
+    height: 94.5%;
+    width: 40%;
+}
+div img#imglogo{
+    width: 100%;
+    transition: transform .4s ease-in-out;
+}
+div img#imglogo:hover{
+    transform: rotate(12deg);
+    filter: drop-shadow(30px 4px 4px rgba(0, 0, 0, 0.164));
+}
+
+div#logo{
+    width: 60%;
+    padding-top: 65px;
+    /* background-color: red; */
+    margin: auto;
+}
+
+div#links{
+    /* background-color: red; */
+    margin: auto;
+    bottom: 0;
+    width: 70%;
+    height: 55%;
+}
+
+div#links ul{
+    margin-top: 8%;
+}
+
+li.prods{
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 12px;
+    line-height: 40px;
+    height: 25%;
+    width: 100%;
+    background-color: rgba(126, 105, 67, 0.568);
+    text-transform: uppercase;
+    font-size: 2.5vh;
+    transition: transform .4s ease-in-out;
+}
+
+li.prods:hover{
+    transform: scale(1.1);
+}
+
+
+@media (max-width:1034px){
+    li#acomp{
+        font-size: 1.9vh;
+    }
+}

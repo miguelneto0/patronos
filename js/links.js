@@ -79,16 +79,13 @@ function trad(){
 }
 
 function acompan(){
-    var h1 = document.getElementById('title')
-    h1.innerHTML = "CHEESE STEAKS"
+    
+}
 
-    var h2 = document.getElementsByTagName('h2')
-    for(let i=0;i<h2.length;i++){
-        h2[0].innerHTML = "STEAK CALABRESA"
-        h2[1].innerHTML = "STEAK FRANGO"
-        h2[2].innerHTML = "STEAK PATINHO"
-        h2[3].innerHTML = " "
-        h2[4].innerHTML = " "
-        h2[5].innerHTML = " "
-    }
+function toggleMenu(){
+    console.log('menu clicado')
+    var lis = document.getElementsByClassName('navli')
+    console.log(lis)
+    for(let i=0;i<lis.length;i++)
+        lis[i].classList.toggle("showli")
 }

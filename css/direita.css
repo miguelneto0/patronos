@@ -15,6 +15,7 @@ div#card{
     width: 85%;
     /* height: 520px; */
     padding: 1%;
+    padding-bottom: 4%;
     z-index: 2;
 }
 
@@ -26,6 +27,7 @@ div#fundo{
     width: 90%;
     height: 500px;
     z-index: 0;
+    transition: background-image .8s ease-in-out;
 }
 
 div#tela h1{
@@ -88,6 +90,20 @@ li.comidas h2{
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 3vh;
+}
+
+@media (max-width:800px){
+    .pcomidas{
+        font-size: 10pt;
+    }
+}
+
+@media (max-width:710px){
+    div#tela{
+        /* position: relative; */
+        width: 100%;
+        height: 700px;
+    }
 }
 
 @import url(//db.onlinewebfonts.com/c/240a7cb10b49b02c94ceddc459d385a9?family=Gagalin);

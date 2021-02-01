@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 div#esquerda{
     position: fixed;
     background-color: rgb(221, 206, 187);
@@ -24,8 +28,13 @@ ul#divcent{
     list-style: none;
     /* display: block; */
 }
-
 a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+a.redes{
     text-decoration: none;
     color: rgba(126, 105, 67, 0.568);
 }
@@ -81,6 +90,10 @@ li.prods:hover{
     background: linear-gradient(to right,rgba(177, 151, 102, 0.568), rgb(126, 105, 67, 0.568));
 }
 
+li.prods:active{
+    background-color: ivory;
+}
+
 
 @media (max-width:1034px){
     li#acomp{
@@ -97,7 +110,11 @@ li.prods:hover{
 
 @media (max-width:710px){
     div#esquerda{
+        position: relative;
         width: 100%;
         height: 700px;
+    }
+    div#logo{
+        width: 40vh;
     }
 }

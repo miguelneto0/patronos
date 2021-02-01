@@ -20,7 +20,7 @@ div#card{
 }
 
 div#fundo{
-    position: absolute;
+    position: inherit;
     /* background-color: red; */
     right: 0;
     bottom: 0;
@@ -100,9 +100,11 @@ li.comidas h2{
 
 @media (max-width:710px){
     div#tela{
-        /* position: relative; */
         width: 100%;
-        height: 700px;
+        height: 720px;
+    }
+    li.comidas span.preco{
+        font-size: 12pt;
     }
 }
 

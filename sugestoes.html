@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patronos Hambuergueria</title>
+    <title>Sugestoes - Patronos Hambuergueria</title>
     <link href="//db.onlinewebfonts.com/c/240a7cb10b49b02c94ceddc459d385a9?family=Gagalin" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/esquerda.css">
     <link rel="stylesheet" href="css/direita.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/sugestao.css">
 </head>
 <body>
     <section>
     <nav>
-        <p id="ptitle"> Cardápio Online</p>
+        <p id="ptitle"> Sugestões</p>
         <div id="sandwich" onclick="toggleMenu()">
             <div id="bar1" class="bar"></div>
             <div id="bar2" class="bar"></div>
@@ -24,8 +25,8 @@
             <!-- <li class="navli sand">
                 
             </li> -->
-            <li class="navli activate">Home</li>
-            <a href="sugestoes.html"><li class="navli">Sugestões</li></a>
+            <a href="index.html "><li class="navli">Home</li></a>
+            <li class="navli activate">Sugestões</li>
             <li class="navli">Contato</li>
             <li class="navli">Sobre</li>
         </ul>
@@ -39,25 +40,48 @@
 
         <div id="centro">
             <ul id="divcent">    
-                <li><img id="instalogo" src="icons/insta-logo.png" alt=""><a class="redes" href="https://instagram.com/patronos_hamburgueria">@hamburgueria_patronos</a></li>
+                <li><img id="instalogo" src="icons/insta-logo.png" alt=""><a class="redes" href="https://instagram.com/hamburgueria_patronos">@hamburgueria_patronos</a></li>
                 <li><img id="whatslogo" src="icons/whats-logo.png" alt=""><a class="redes" href="https://web.whatsapp.com/">(99) 98224-0370</a></li>
             </ul>
         </div>
 
         <div id="links">
-            <ul>
+            <!-- <ul>
                 <a href="#tela"><li class="prods" onclick="trad()">Tradicionais</li></a>
                 <a href="#tela"><li class="prods" onclick="smash()">Smash Burgers</li></a>
                 <a href="#tela"><li class="prods" onclick="steak()">Cheese Steaks</li></a>
                 <a href="#tela"><li id="acomp" onclick="acompan()" class="prods">Acompanhamentos</li></a>
-            </ul>
+            </ul> -->
+            <p id="sugest">
+                A <strong>Patronos</strong> está aqui para serví-lo. <br>Caso tenha alguma dúvida, crítica ou sugestão, envie agora para a nossa equipe.
+            </p>
         </div>
     </div>
     <div id="tela">
         <h1 id="title"> </h1>
         <div id="card">
-            <article>
-                Olá, querido cliente,<br>a <strong>Patronos Hambuergueria</strong> agradece a sua preferência.<br>Através dos links ao lado voce pode conferir o nosso cardápio.<br><i>Bonnapetite</i> !
+            <article id="artsug">
+               <form class="formSug" action="./sugestoes.php" method="POST">
+                   <ul>
+                       <li class="inp">
+                        <label>Nome:</label>
+                        <input type="name" name="name" placeholder="Digite seu nome...">
+                       </li>
+                       <li class="inp">
+                        <label>Email:</label>
+                        <input type="email" name="email" placeholder="Digite seu Email...">
+                       </li>
+                       <li class="inp">
+                        <label>Mensagem de sugestão/crítica/dúvida:</label><br>
+                        <textarea name="message" placeholder="Digite sua mensagem..."></textarea>
+                       </li>
+                       <li class="inp">
+                           <input type="submit" name="Enviar" value="Enviar">
+                       </li>
+                   </ul>
+                   
+               </form>
+                <!-- Olá, querido cliente,<br>a <strong>Patronos Hambuergueria</strong> agradece a sua preferência.<br>Através dos links ao lado voce pode conferir o nosso cardápio.<br><i>Bonnapetite</i> ! -->
             </article>
             <!--<ul class="comida">
                 

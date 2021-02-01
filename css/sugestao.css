@@ -1,0 +1,42 @@
+#artsug{
+    padding: 2%;
+}
+
+p#sugest{
+    padding-top: 15%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.formSug{
+    font-size: 3vh;
+}
+
+input[name="name"],input[name="email"],input[name="message"]{
+    line-height: 30px;
+    width: 40%;
+}
+
+input[name="email"]{
+    margin-left: 10px;
+}
+
+textarea[name="message"]{
+    margin-top: 12px;
+    width: 40%;
+    height: 200px;
+    margin-left: 70px;
+}
+
+input[name="Enviar"]{
+    height: 40px;
+    width: 15%;
+    font-size: 2.5vh;
+}
+
+li.inp{
+    /* background-color: red; */
+    margin-top: 3%;
+    text-decoration: none;
+    list-style: none;
+}

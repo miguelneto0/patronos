@@ -8,12 +8,12 @@ div#tela{
 
 div#card{
     position: relative;
-    /* margin: auto; */
     margin: auto;
-    margin-top: 1%;
+    margin-top: 1vh;
+    /* margin-top: 1%; */
     border: 3px dashed white;
     width: 85%;
-    height: 520px;
+    /* height: 520px; */
     padding: 1%;
     z-index: 2;
 }
@@ -32,11 +32,20 @@ div#tela h1{
     /* position: relative; */
     font-family: 'Gagalin';
     font-size: 6vh;
-    margin-top: 8%;
-    margin-bottom: 1%;
+    margin-top: 8vh;
+    /* margin-bottom: 1%; */
     text-align: center;
+    color: white;   
+}
+
+article{
     color: white;
-    
+    /* margin-top: 10%; */
+    /* vertical-align: middle; */
+    padding: 10% 5% 5% 5%;
+    font-size: 3vw;
+    text-align: center;
+    /* line-height: 400px; */
 }
 
 li.comidas span.preco{
@@ -52,27 +61,30 @@ li.comidas span.preco{
 }
 
 ul.comida{
-    /* padding: 1% */
+    padding: 0 1% 2% 1%;
 }
 
 li.comidas{
+    /* background-color: red; */
     list-style: none;
-    margin-bottom: 6%;
+    margin: 2% 0 2% 0;
+    /* height: 50px; */
     /* padding-top: 2%; */
     padding-bottom: 2%;
 }
 
 li.comidas p{
     color: white;
-    font-family: Calibri;
+    font-family: 'Arial';
     font-size: 1.9vh;
     width: 82%;
     float: left;
 }
 
 li.comidas h2{
+    /* float: left; */
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Calibri', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 3vh;

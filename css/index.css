@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
@@ -12,6 +13,16 @@ section{
     width: 100%;
     height: 730px;
 }
+
+p#ptitle{
+    color: white;
+    font-size: 2.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    float: left;
+    line-height: 40px;
+    padding: 8px 18px;
+} 
 
 ul.menunav{
     font-family: montserrat;
@@ -35,7 +46,7 @@ li.navli{
     text-align: center;
     text-transform: uppercase;
     display: inline-block;
-    
+    /* background-color: red;     */
     color: white;
     border-radius: 20px;
     margin: 5px;

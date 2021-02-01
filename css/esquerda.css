@@ -1,7 +1,7 @@
 div#esquerda{
     position: fixed;
     background-color: rgb(221, 206, 187);
-    height: 94.5%;
+    height: 96%;
     width: 40%;
 }
 div img#imglogo{
@@ -14,22 +14,32 @@ div img#imglogo:hover{
 }
 
 div#logo{
-    width: 60%;
+    width: 20vw;
     padding-top: 65px;
     /* background-color: red; */
     margin: auto;
 }
 
+div#centro{
+    font-size: 2vh;
+    list-style: none;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    /* background-color: red; */
+}
+
 div#links{
     /* background-color: red; */
     margin: auto;
-    bottom: 0;
+    bottom: 1;
     width: 70%;
     height: 55%;
 }
 
 div#links ul{
     margin-top: 8%;
+    /* bottom:1%; */
 }
 
 li.prods{
@@ -57,5 +67,12 @@ li.prods:hover{
 @media (max-width:1034px){
     li#acomp{
         font-size: 1.9vh;
+    }
+}
+
+@media (max-width:850px){
+    div#logo{
+        /* margin: 0; */
+        width: 30vw;
     }
 }

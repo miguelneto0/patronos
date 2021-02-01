@@ -20,10 +20,27 @@ div#logo{
     margin: auto;
 }
 
+ul#divcent{
+    list-style: none;
+    /* display: block; */
+}
+
+a{
+    text-decoration: none;
+    color: rgba(126, 105, 67, 0.568);
+}
+
+#instalogo,#whatslogo{
+    margin-right: 10px;
+    padding-top: 5px;
+    width: 15px;
+    /* float: center; */
+}
+
 div#centro{
     font-size: 2vh;
     list-style: none;
-    width: 70%;
+    width: 35%;
     margin: auto;
     text-align: center;
     /* background-color: red; */

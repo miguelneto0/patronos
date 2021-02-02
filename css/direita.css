@@ -104,7 +104,15 @@ li.comidas h2{
         height: 720px;
     }
     li.comidas span.preco{
-        font-size: 12pt;
+        font-size: 14pt;
+        width: 23%;
+    }
+    .comidas{
+        padding-top: 5%;
+    }
+    li.comidas p{
+        font-size: 2vw;
+        width: 75%;
     }
 }
 

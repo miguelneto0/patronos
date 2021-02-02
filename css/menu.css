@@ -113,6 +113,10 @@ div#sandwich{
         transform:translateX(-200%);
         transition: transform .5s ease-in-out;
     }
+    li.navli:hover{
+        color: white;
+        background-color: rgb(61, 55, 50);
+    }
     li.activate{
         background-color: rgb(46, 40, 31);
         border: transparent;
